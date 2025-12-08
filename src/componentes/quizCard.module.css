@@ -1,0 +1,49 @@
+.card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.botao {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.botao:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.correto {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.errado {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.acerto {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.erro {
+  color: #dc3545;
+  font-weight: bold;
+}
